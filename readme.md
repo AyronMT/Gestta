@@ -1,6 +1,6 @@
 # 🚀 Gestta - Sistema de Ordem de Serviço e Estoque
 
-![Status do Projeto](https://img.shields.io/badge/status-em-progresso-green)
+![Status do Projeto](https://img.shields.io/badge/Em%20Progresso%20-FFFF00)
 ![Licença](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Sistema web para gerenciamento de ordens de serviço e controle de estoque, desenvolvido como Trabalho de Conclusão de Curso (TCC) do curso de Desenvolvimento de Sistemas. A solução é voltada para micro e pequenas empresas que buscam otimizar e digitalizar seus processos.
