@@ -85,10 +85,10 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 Este projeto foi desenvolvido por:
 
-* **Ayron Felype Dias da Silva** - [GitHub](https://github.com/[SEU_USUARIO])
-* **Daniel Mercante Delphino de Oliveira** - [GitHub](https://github.com/[USUARIO_COLEGA])
-* **Arthur Pinheiro Rodrigues** - [GitHub](https://github.com/[USUARIO_COLEGA])
-* **Felipe Bruzarosco Gualter** - [GitHub](https://github.com/)
+* **Ayron Felype Dias da Silva** - [GitHub](https://github.com/ayronmt)
+* **Daniel Mercante Delphino de Oliveira** - [GitHub](https://github.com/danielmercante)
+* **Arthur Pinheiro Rodrigues** - [GitHub](https://github.com/ArthurEzz)
+* **Felipe Bruzarosco Gualter** - [GitHub](https://github.com/fanumero1dogethub)
 
 ---
 
