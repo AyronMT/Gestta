@@ -1,0 +1,30 @@
+body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        body { background-color: #f0f2f5; }
+        .bg-card { background-color: #ffffff; }
+        .text-default { color: #1f2937; }
+        .text-muted { color: #6b7280; }
+
+        .dark body { background-color: #121212; }
+        .dark .bg-card { background-color: #1f2937; }
+        .dark .text-default { color: #e5e7eb; }
+        .dark .text-muted { color: #9ca3af; }
+
+        .sidebar {
+            transform: translateX(100%);
+        }
+        .sidebar.open {
+            transform: translateX(0);
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+        .overlay.visible {
+            visibility: visible;
+            opacity: 1;
+        }
