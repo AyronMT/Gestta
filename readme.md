@@ -88,6 +88,7 @@ Este projeto foi desenvolvido por:
 * **Ayron Felype Dias da Silva** - [GitHub](https://github.com/[SEU_USUARIO])
 * **Daniel Mercante Delphino de Oliveira** - [GitHub](https://github.com/[USUARIO_COLEGA])
 * **Arthur Pinheiro Rodrigues** - [GitHub](https://github.com/[USUARIO_COLEGA])
+* **Felipe Bruzarosco Gualter** - [GitHub](https://github.com/)
 
 ---
 
