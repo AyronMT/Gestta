@@ -9,6 +9,31 @@ if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
 $nome_usuario = $_SESSION['nome_usuario'];
 $email_usuario = $_SESSION['email_usuario'];
 
+$servername = "localhost";
+$username = "root";
+$password = ""; 
+$dbname = "Gestta";
+
+$lowStockCount = "--";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    error_log("Connection failed: " . $conn->connect_error);
+} else {
+    $sql = "SELECT COUNT(*) FROM Estoque WHERE quantidade < 10";
+    $result = $conn->query($sql);
+
+    if ($result) {
+        $row = $result->fetch_row();
+        $lowStockCount = $row[0];
+    } else {
+        error_log("Query failed: " . $conn->error);
+    }
+
+    $conn->close();
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR" class="light">
@@ -111,7 +136,7 @@ $email_usuario = $_SESSION['email_usuario'];
                             </svg>
                         </span>
                         <h3 class="text-lg font-semibold text-default">Itens com Estoque Baixo</h3>
-                        <p id="low-stock-count" class="text-4xl font-bold text-red-500 mt-2">--</p>
+                        <p id="low-stock-count" class="text-4xl font-bold text-red-500 mt-2"><?php echo htmlspecialchars($lowStockCount); ?></p>
                     </div>
                     <div class="bg-card rounded-xl shadow-md p-6 flex flex-col items-center justify-center text-center transition-colors duration-300">
                         <span class="text-5xl text-green-500 mb-2">
@@ -137,7 +162,7 @@ $email_usuario = $_SESSION['email_usuario'];
                             </div>
                         </a>
 
-                        <a href="../HTML/Estoque.html" class="flex-1 min-w-[200px] px-6 py-4 rounded-xl font-medium transition duration-300 text-center text-white bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <a href="Estoque.php" class="flex-1 min-w-[200px] px-6 py-4 rounded-xl font-medium transition duration-300 text-center text-white bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                             <div class="flex items-center justify-center space-x-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10m-4-2h8a2 2 0 002-2V9a2 2 0 00-2-2H8a2 2 0 00-2 2v6a2 2 0 002 2z" />
@@ -199,11 +224,9 @@ $email_usuario = $_SESSION['email_usuario'];
         document.addEventListener('DOMContentLoaded', () => {
 
             const osCount = 42;
-            const lowStockCount = 5;
             const revenueAmount = 1250.75;
 
             document.getElementById('os-count').textContent = osCount;
-            document.getElementById('low-stock-count').textContent = lowStockCount;
             document.getElementById('revenue-amount').textContent = `R$ ${revenueAmount.toFixed(2).replace('.', ',')}`;
 
             const profileBtn = document.getElementById('profile-btn');
