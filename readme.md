@@ -73,13 +73,13 @@ O **Gestta** foi criado para resolver esse problema, oferecendo uma plataforma c
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
-| Tecnologia | Ferramenta |
+| Tecnologia | Ferramentas Utilizadas |
 |------------|-------------|
 | **Frontend** | `HTML5, CSS` |
 | **Backend** | `PHP` |
 | **Banco de Dados** | `MySQL` |
 | **Hospedagem** | `InfinityFree` |
-| **Ferramentas** | `Git, VS Code, Xampp` |
+| **Ferramentas** | `Git, Visual Studio Code, Xampp` |
 
 ## 👨‍💻 Autores
 
