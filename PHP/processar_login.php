@@ -23,11 +23,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     if (isset($_POST['email_ou_telefone']) && isset($_POST['senha'])) {
 
-        
         $email = htmlspecialchars(trim($_POST['email_ou_telefone']));
         $senha_digitada = $_POST['senha'];
 
-        $sql = "SELECT senha FROM $tabela_usuarios WHERE email = ?";
+        // Seleciona a senha e o nome do usuário
+        $sql = "SELECT senha, nome FROM $tabela_usuarios WHERE email = ?";
         
         $stmt = $conn->prepare($sql);
         
@@ -42,8 +42,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 
                 $_SESSION['logado'] = true;
                 $_SESSION['email_usuario'] = $email;
+                $_SESSION['nome_usuario'] = $resultado['nome'];
 
-                header("Location: Dashboard.php");
+                header("Location: dashboard.php");
                 exit();
             } else {
                 echo "Senha incorreta.";
