@@ -59,7 +59,7 @@ O **Gestta** foi criado para resolver esse problema, oferecendo uma plataforma c
   <img src="https://github.com/user-attachments/assets/5deefb5c-abe9-4a1c-9cc8-4731cad3905e" alt="Dashboard Principal" width="48%">
 </p>
 <p align="center">
-  <img src="[Cadastro de Ordem de Serviço]" alt="Cadastro de Ordem de Serviço" width="48%">
+  <img src="https://github.com/user-attachments/assets/2961f8ea-fc76-4eb4-8261-ba9ce41c71c3" alt="Cadastro de Ordem de Serviço" width="48%">
   <img src="https://github.com/user-attachments/assets/d84fb88c-0d06-45ef-8ddd-30aa6c68e3ef" alt="Tela de Controle de Estoque" width="48%">
 </p>
 
