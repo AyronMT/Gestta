@@ -59,7 +59,7 @@ O **Gestta** foi criado para resolver esse problema, oferecendo uma plataforma c
   <em>(Substitua os links abaixo pelos links das imagens do seu projeto. Você pode subir as imagens no próprio GitHub)</em>
 </p>
 <p align="center">
-  <img src="[LINK_DA_IMAGEM_TELA_LOGIN]" alt="Tela de Login" width="48%">
+  <img src="https://github.com/user-attachments/assets/ccc5e9bf-283f-4de9-a417-d111809b00e8" alt="Tela de Login" width="48%">
   <img src="[LINK_DA_IMAGEM_DASHBOARD]" alt="Dashboard Principal" width="48%">
 </p>
 <p align="center">
@@ -79,7 +79,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 | **Backend** | `PHP` |
 | **Banco de Dados** | `MySQL` |
 | **Hospedagem** | `InfinityFree` |
-| **Ferramentas** | `Git, Visual Studio Code, Xampp` |
+| **Softwares** | `Git, Visual Studio Code, Xampp` |
 
 ## 👨‍💻 Autores
 
