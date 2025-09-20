@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestta - Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../CSS/cadastro.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary-blue': '#1877f2',
+                        'purple-btn': '#c618f2',
+                        'green-btn': '#42b72a',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="cadastro-layout">
+        <div class="logo-section">
+            <h1 class="text-7xl md:text-[50px] font-bold text-primary-blue mb-2">Gestta</h1>
+            <h2 class="text-lg md:text-[20px] text-[#606770] md:pr-10">Estoque e Ordens de Serviços</h2>
+        </div>
+        <div class="cadastro-box">
+            <form class="cadastro-form flex flex-col gap-4" action="../PHP/processar_cadastro.php" method="POST">
+                <input type="text" name="nome" placeholder="Nome Completo" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="senha" placeholder="Senha" required>
+                <button type="submit" class="btn-base btn-primary">Cadastrar</button>
+            </form>
+            <a href="Login.html" class="btn-link">Voltar ao Login</a>
+        </div>
+    </div>
+</body>
+</html>
