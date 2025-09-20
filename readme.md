@@ -72,7 +72,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 | Tecnologia | Ferramentas Utilizadas |
 |------------|-------------|
 | **Frontend** | `HTML5, CSS` |
-| **Backend** | `PHP` |
+| **Backend** | `PHP, JAVASCRIPT` |
 | **Banco de Dados** | `MySQL` |
 | **Hospedagem** | `InfinityFree` |
 | **Softwares** | `Git, Visual Studio Code, Xampp` |
