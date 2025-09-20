@@ -73,7 +73,7 @@ O **Gestta** foi criado para resolver esse problema, oferecendo uma plataforma c
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
-| Ferramenta | Descrição |
+| Tecnologia | Ferramenta |
 |------------|-------------|
 | **Frontend** | `HTML5, CSS` |
 | **Backend** | `PHP` |
