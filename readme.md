@@ -85,7 +85,7 @@ Este projeto foi desenvolvido por:
 * **Daniel Mercante Delphino de Oliveira** - [GitHub](https://github.com/danielmercante)
 * **Arthur Pinheiro Rodrigues** - [GitHub](https://github.com/ArthurEzz)
 * **Felipe Bruzarosco Gualter** - [GitHub](https://github.com/fanumero1dogethub)
-
+* **Allan Yverson Damazio dos Santos** - [GitHub](https://github.com/Yverson77a)
 ---
 
 ## 📄 Licença
