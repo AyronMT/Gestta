@@ -1,0 +1,112 @@
+body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 1rem;
+            box-sizing: border-box;
+        }
+
+        .cadastro-layout {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        @media (min-width: 768px) {
+            .cadastro-layout {
+                flex-direction: row;
+                gap: 4rem;
+            }
+        }
+        
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+
+        @media (min-width: 768px) {
+            .logo-section {
+                align-items: flex-start;
+                text-align: left;
+            }
+        }
+
+        .cadastro-box {
+            background-color: #ffffff;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+        }
+
+        .cadastro-form input {
+            width: 100%;
+            padding: 14px 16px;
+            font-size: 17px;
+            border: 1px solid #dddfe2;
+            border-radius: 8px;
+            box-sizing: border-box;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .cadastro-form input:focus {
+            outline: none;
+            border-color: #1877f2;
+            box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
+        }
+
+        .btn-base {
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 14px 16px;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            text-decoration: none;
+            box-sizing: border-box;
+            transition: background-color 0.2s;
+        }
+
+        .btn-primary {
+            background-color: #a115c4;
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background-color: #8c0fa3;
+        }
+        
+        .separator {
+            border-top: 1px solid #dadde1;
+            margin: 16px 0;
+        }
+
+        .btn-link {
+            display: inline-block;
+            margin-top: 16px;
+            color: #1877f2;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            width: 100%;
+            transition: text-decoration 0.2s;
+        }
+
+        .btn-link:hover {
+            text-decoration: underline;
+        }
