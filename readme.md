@@ -34,22 +34,34 @@ O **Gestta** foi criado para resolver esse problema, oferecendo uma plataforma c
 ## ✨ Funcionalidades
 
 ### 📦 Controle de Estoque
--   [⭮] Cadastro de produtos/peças com descrição, quantidade e preço.
--   [⭮] Movimentação de entrada e saída de itens.
--   [⭮] Baixa automática de estoque ao vincular um item a uma Ordem de Serviço.
--   [⭮] Alertas visuais para estoque baixo.
+-   [👍] Cadastro de produtos/peças com descrição, quantidade e preço.
+-   [👍] Movimentação de entrada e saída de itens.
+-   [👍] Baixa automática de estoque ao vincular um item a uma Ordem de Serviço.
+-   [👍] Alertas visuais para estoque baixo.
+
+### 🔧 Ordens de Serviço (O.S.)
+
+-   [👍] Descrição detalhada do equipamento e do defeito relatado.
+-   [👍] Acompanhamento por status (Ex: `Aberto`, `Em Análise`, `Aguardando Peça`, `Concluído`).
+
+
+### 👤 Cadastros Gerais
+
+-   [👍] Sistema de autenticação
+
+---
+
+## ⏱️ Em Andamento
+
+### 📦 Controle de Estoque
 
 ### 🔧 Ordens de Serviço (O.S.)
 -   [⭮] Criação de O.S. vinculada a um cliente e técnico.
--   [⭮] Descrição detalhada do equipamento e do defeito relatado.
--   [⭮] Acompanhamento por status (Ex: `Aberto`, `Em Análise`, `Aguardando Peça`, `Concluído`).
 -   [⭮] Adição de produtos/peças do estoque diretamente na O.S.
 -   [⭮] Geração de O.S. em formato PDF para impressão ou envio.
 
 ### 👤 Cadastros Gerais
--   [⭮] Gestão de Clientes (CRUD - Criar, Ler, Atualizar, Deletar).
 -   [⭮] Gestão de Técnicos/Funcionários (CRUD).
--   [⭮] Sistema de autenticação e controle de acesso de usuários.
 
 ---
 
